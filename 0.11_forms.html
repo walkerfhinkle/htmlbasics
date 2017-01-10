@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms, Inputs and Textarea</title>
+</head>
+<body>
+	<div class="form-one">
+		<form>
+			<p><label>Customer Name: <input /></label></p>
+			<p><label>Street Address: <input /></label></p>
+			<p><label>City: <input /></label></p>
+			<p><label>State: <input /></label></p>
+			<p><label>Telephone Number: <input /></label></p>
+
+		</form>
+	</div>
+	<br />
+	<div class="form-two">
+		<form>
+			<fieldset>
+				<legend>Customer Information</legend>
+				<p><label>Customer Name: <input /></label></p>
+				<p><label>Street Address: <input /></label></p>
+				<p><label>City: <input /></label></p>
+				<p><label>State: <input /></label></p>
+				<p><label>Telephone Number: <input /></label></p>
+			</fieldset>
+		</form>
+	</div>
+	<br />
+	<div class="form-three">
+		<form>
+			<fieldset>
+				<legend>How many F&@*s do you give?</legend>
+				<p><input type="radio" name="size" id="size1" /><label>One F&@*</label></p>
+				<p><input type="radio" name="medium" id="size2" /><label>Several F&@*s</label></p>
+				<p><input type="radio" name="super" id="size3" /><label>Pary sized F&@*s</label></p>
+			</fieldset>
+		</form>
+	</div>
+	<br />
+	<!--Build a form that allows a user to select different toppings or ingrediends--think checkbox-->
+	<div class="form-four">
+		<form>
+			<fieldset>
+				<legend>Toppings</legend>
+				<p><input type="checkbox" name="pepperoni" id="toppings1" /><label>Pepperoni</label></p>
+				<p><input type="checkbox" name="sausage" id="toppings1" /><label>Sausage</label></p>
+				<p><input type="checkbox" name="mushrooms" id="toppings1" /><label>Mushrooms</label></p>
+				<p><input type="checkbox" name="bacon" id="toppings1" /><label>Bacon</label></p>
+				<hr />
+				<p><input type="checkbox" name="vegetarian" id="toppings1" /><label>Vegetarian</label></p>
+				<p><input type="checkbox" name="hawaiian" id="toppings1" /><label>Hawaiian</label></p>
+			</fieldset>
+		</form>
+	</div>
+	<br />
+	<div class="form-five">
+		<form>
+			<fieldset>
+				<p><label>Preferred delivery time: <input type="time" min="11:00" max="21:00" step="900"></label></p>
+				<p><label>Delivery instructions: <textarea></textarea></label></p>
+				<p><button>Submit order</button></p>
+			</fieldset>
+		</form>
+	</div>
+</body>
+</html>
